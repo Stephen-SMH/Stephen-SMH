@@ -12,8 +12,9 @@
 I build **production services and agentic AI products**, end to end: from the data model and API to a deployed React and TypeScript interface. I also make games and local-first desktop apps.
 
 - 🤖 Agentic AI with RAG, MCP and CopilotKit, built with deterministic validation so behaviour stays auditable
-- ⚙️ Backend in Python (FastAPI), Kotlin (Spring Boot) and Go
+- ⚙️ Backend in Python (FastAPI), **Kotlin** (Spring Boot) and Go
 - 🚀 Docker, CI/CD, Grafana and k6, with canary and blue/green rollouts
+- 📱 Mobile in **Kotlin** (Android) and **Swift** (iOS), plus Flutter
 - 🎮 Games in Flutter, Three.js and Phaser · 🖥️ desktop apps in Tauri
 
 ## 🧰 Stack
@@ -24,6 +25,7 @@ I build **production services and agentic AI products**, end to end: from the da
   <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white">
   <img alt="React" src="https://img.shields.io/badge/-React-20232a?logo=react&logoColor=61DAFB">
   <img alt="Kotlin" src="https://img.shields.io/badge/-Kotlin-7F52FF?logo=kotlin&logoColor=white">
+  <img alt="Swift" src="https://img.shields.io/badge/-Swift-F05138?logo=swift&logoColor=white">
   <img alt="Go" src="https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white">
   <img alt="Flutter" src="https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white">
