@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Soe Moe Htet, software engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1a1c"/><stop offset=".5" stop-color="#1d2140"/><stop offset="1" stop-color="#34408f"/></linearGradient>
+    <linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+    <radialGradient id="p"><stop offset="0" stop-color="#f472b6" stop-opacity=".55"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="v"><stop offset="0" stop-color="#8b7bff" stop-opacity=".6"/><stop offset="1" stop-color="#8b7bff" stop-opacity="0"/></radialGradient>
+    <style>
+      .t{font:600 64px 'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:-2px;fill:#fff}
+      .s{font:500 22px ui-monospace,Menlo,monospace;fill:#c7cdfc}
+      .c{font:500 20px ui-monospace,Menlo,monospace;fill:url(#tx)}
+      .o1{animation:a 9s ease-in-out infinite alternate}.o2{animation:a 12s ease-in-out infinite alternate-reverse}
+      @keyframes a{to{transform:translate(60px,20px)}}
+      .cur{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+    </style>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <circle class="o1" cx="180" cy="300" r="260" fill="url(#v)"/><circle class="o2" cx="1050" cy="320" r="240" fill="url(#p)"/>
+  <text class="c" x="70" y="88">~/stephen-smh $ whoami</text>
+  <text class="t" x="68" y="170">Soe Moe Htet</text>
+  <text class="s" x="70" y="222">Software engineer · agentic AI · production services</text>
+  <text class="s" x="70" y="262" fill="#9aa3d9">Bangkok, Thailand<tspan class="cur" fill="#f472b6"> ▍</tspan></text>
+</svg>
