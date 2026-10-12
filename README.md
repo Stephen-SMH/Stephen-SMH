@@ -1,6 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="Soe Moe Htet" width="100%"></p>
 
 <p align="center">
+  <a href="https://stephen-smh.github.io/"><img alt="Home" src="https://img.shields.io/badge/Home-0f172a?style=for-the-badge&logo=homeassistant&logoColor=white"></a>
   <a href="https://stephen-smh.github.io/software-engineering-portfolio/en/"><img alt="Engineering" src="https://img.shields.io/badge/Engineering_portfolio-f472b6?style=for-the-badge&logo=astro&logoColor=white"></a>
   <a href="https://stephen-smh.github.io/game-portfolio/"><img alt="Games" src="https://img.shields.io/badge/Game_portfolio-8b5cf6?style=for-the-badge&logo=gamedeveloper&logoColor=white"></a>
   <a href="https://stephen-smh.github.io/desktop-portfolio/"><img alt="Desktop" src="https://img.shields.io/badge/Desktop_portfolio-6366f1?style=for-the-badge&logo=tauri&logoColor=white"></a>
