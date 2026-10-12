@@ -41,10 +41,10 @@ I build **production services and agentic AI products**, end to end: from the da
 
 | Project | What it is |
 | --- | --- |
-| [**software-engineering-portfolio**](https://github.com/Stephen-SMH/software-engineering-portfolio) | Astro portfolio with an interactive terminal, animated skill scenes and a CI/CD story. |
+| [**software-engineering-portfolio**](https://stephen-smh.github.io/software-engineering-portfolio/en/)<br><sub>[source](https://github.com/Stephen-SMH/software-engineering-portfolio)</sub> | Astro portfolio with an interactive terminal, animated skill scenes and a CI/CD story. |
 | [**local-llm-gateway**](https://github.com/Stephen-SMH/local-llm-gateway) | Self-hosted, OpenAI-compatible gateway for local LLMs: model registry, retries and circuit breakers, API-key RBAC, Redis rate limiting. |
-| [**game-portfolio**](https://github.com/Stephen-SMH/game-portfolio) | My games with Steam-style store pages: Werewolf, The Knock and more. |
-| [**desktop-portfolio**](https://github.com/Stephen-SMH/desktop-portfolio) | A portfolio shaped like a tiny desktop OS, with draggable windows. |
+| [**game-portfolio**](https://stephen-smh.github.io/game-portfolio/)<br><sub>[source](https://github.com/Stephen-SMH/game-portfolio)</sub> | My games with Steam-style store pages: Werewolf, The Knock and more. |
+| [**desktop-portfolio**](https://stephen-smh.github.io/desktop-portfolio/)<br><sub>[source](https://github.com/Stephen-SMH/desktop-portfolio)</sub> | A portfolio shaped like a tiny desktop OS, with draggable windows. |
 
 <sub>Most of my larger work (a fintech wallet simulator, a multi-agent delivery city, Comic Studio) lives in private repos. Ask me about them.</sub>
 
