@@ -1,7 +1,13 @@
 <p align="center"><img src="assets/banner.svg" alt="Soe Moe Htet" width="100%"></p>
 
+<h3 align="center">
+  🌐 <a href="https://stephen-smh.github.io/">stephen-smh.github.io</a>
+</h3>
 <p align="center">
-  <a href="https://stephen-smh.github.io/"><img alt="Home" src="https://img.shields.io/badge/Home-0f172a?style=for-the-badge&logo=homeassistant&logoColor=white"></a>
+  <a href="https://stephen-smh.github.io/"><img alt="Visit my website" height="44" src="https://img.shields.io/badge/%F0%9F%9A%80_Visit_my_website-All_portfolios_in_one_place-ec4899?style=for-the-badge&labelColor=4f46e5"></a>
+</p>
+
+<p align="center">
   <a href="https://stephen-smh.github.io/software-engineering-portfolio/en/"><img alt="Engineering" src="https://img.shields.io/badge/Engineering_portfolio-f472b6?style=for-the-badge&logo=astro&logoColor=white"></a>
   <a href="https://stephen-smh.github.io/game-portfolio/"><img alt="Games" src="https://img.shields.io/badge/Game_portfolio-8b5cf6?style=for-the-badge&logo=gamedeveloper&logoColor=white"></a>
   <a href="https://stephen-smh.github.io/desktop-portfolio/"><img alt="Desktop" src="https://img.shields.io/badge/Desktop_portfolio-6366f1?style=for-the-badge&logo=tauri&logoColor=white"></a>
