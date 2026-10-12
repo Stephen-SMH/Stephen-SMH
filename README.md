@@ -7,47 +7,60 @@
   <a href="https://www.linkedin.com/in/soe-moe-htet-01b411187/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
 
-## 👋 Hi, I'm Stephen
+```yaml
+name:      Soe Moe Htet (Stephen)
+role:      Software Engineer · backend, fintech systems, agentic AI
+location:  Bangkok, Thailand (UTC+7) · hybrid or remote
+education: B.Eng. Software Engineering, KMITL (2022 – 2026)
+focus:     correctness under concurrency · production delivery · auditable AI
+```
 
-I build **production services and agentic AI products**, end to end: from the data model and API to a deployed React and TypeScript interface. I also make games and local-first desktop apps.
+## ⚡ Summary
 
-- 🤖 Agentic AI with RAG, MCP and CopilotKit, built with deterministic validation so behaviour stays auditable
-- ⚙️ Backend in Python (FastAPI), **Kotlin** (Spring Boot) and Go
-- 🚀 Docker, CI/CD, Grafana and k6, with canary and blue/green rollouts
-- 📱 Mobile in **Kotlin** (Android) and **Swift** (iOS), plus Flutter
-- 🎮 Games in Flutter, Three.js and Phaser · 🖥️ desktop apps in Tauri
+Full-stack engineer who ships **spec → data model → API → UI → production**. I build money-moving systems where every cent is accounted for (double-entry ledgers, idempotency, outbox, reconciliation), run them on Kubernetes with GitOps and SLOs, and add agentic AI with deterministic guardrails so behaviour stays auditable.
+
+## 💼 Experience
+
+**Forward Deployed Engineer (associate)** · *Tech Links Asia* · Jul 2026 – Present
+- Shipped a social media management platform **solo, spec to deploy**: FastAPI / SQLAlchemy API and a React / TypeScript frontend.
+- Put **6 platform APIs** (Facebook, Instagram, LinkedIn, TikTok, X, YouTube) behind one service registry, so a new channel plugs in without touching core logic.
+- Built an AI copilot into the composer and post editor, and deployed the stack to production with Docker Compose on Render.
+
+**Software Engineer (intern)** · *Smart Shift Solutions* · Dec 2025 – May 2026
+- Wrote Kotlin / Spring Boot business modules (config, flow orchestration, position management) for the Supali CRM and DOA platforms, with jOOQ, Flyway and a Next.js frontend.
+- Added RBAC and server-side validation to block unauthorized state changes.
+- Contributed to **Context Hub**, an agentic RAG tool that answers questions by searching every company repo, and designed an Agno / CopilotKit agent platform with structured I/O and prompt-injection defences.
+
+**QA Automation Engineer (intern)** · *Social.plus* · Jul – Sep 2025
+- Wrote and maintained Playwright end-to-end suites for the Social.plus UI Kit, tracking work in Jira and TestMo.
+
+**Earlier, 2020 – 2025:** multi-agent NL→SQL with LlamaIndex and Docker (*Zojump*) · PLC conveyor control with Flask, WebSocket and ZeroMQ (*Clara Robotic*) · Braze SDK in a Flutter app (*Demeter ICT*) · live vehicle geotracking in React (*Sustainity*) · Flutter with Bloc / Cubit (*Frontware*) · internal web systems in React and FastAPI (*Chindwin Crewing*, 2 years)
+
+## 🏗️ Featured systems
+
+| System | What it proves | Stack |
+| --- | --- | --- |
+| **MPay**: e-wallet simulation, MoMo / ZaloPay style | **Double-entry ledger** where money is never lost or duplicated under concurrency, partner failures and crashes. 20 domain modules (ledger, payments, cards, bill pay, FX, settlement, reconciliation, accounting close, fraud, AML, disputes), a transactional outbox, idempotent postings and holds, **23 ADRs** | Go · PostgreSQL · sqlc · MongoDB · OpenAPI · React · Flutter |
+| **YoteShin Platform**: infra for a Myanmar short-drama streaming app | Terraform-managed AWS (S3 presigned uploads → SQS → worker, IAM / OIDC), Kubernetes with **Argo CD GitOps**, Prometheus / Grafana / Loki with SLOs. Runs on k3d locally and on Oracle Cloud | Kubernetes · Terraform · Argo CD · AWS · Grafana |
+| **YoteShin Studio**: mobile publishing app | Resumable YouTube uploads that run on the OS background transfer service and pick up from the last byte YouTube received; a film counts as published only once YouTube returns its video ID | Flutter · Riverpod · YouTube Data API |
+| [**Migrate Studio**](https://stephen-smh.github.io/migrate-studio/) | Applies SQL migrations, lints risky statements, replays each down on a scratch DB to prove it undoes its up, and detects schema drift | Go · PostgreSQL · React |
+| [**LocalGate**](https://github.com/Stephen-SMH/local-llm-gateway) | OpenAI-compatible gateway for local LLMs with retries, circuit breakers, fallback models, API-key RBAC and Redis rate limiting | Python · Redis · Ollama |
+| **Food Delivery City** | Every customer, cook and rider is an LLM agent on a 3D map, with Go services talking over RabbitMQ through an outbox | Go · RabbitMQ · Three.js |
+
+<sub>MPay, YoteShin and Food Delivery City are in private repos. I'm happy to walk through the code in an interview.</sub>
 
 ## 🧰 Stack
 
-<p>
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white">
-  <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white">
-  <img alt="React" src="https://img.shields.io/badge/-React-20232a?logo=react&logoColor=61DAFB">
-  <img alt="Kotlin" src="https://img.shields.io/badge/-Kotlin-7F52FF?logo=kotlin&logoColor=white">
-  <img alt="Swift" src="https://img.shields.io/badge/-Swift-F05138?logo=swift&logoColor=white">
-  <img alt="Go" src="https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white">
-  <img alt="Flutter" src="https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white">
-  <img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white">
-  <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white">
-  <img alt="Grafana" src="https://img.shields.io/badge/-Grafana-F46800?logo=grafana&logoColor=white">
-  <img alt="Playwright" src="https://img.shields.io/badge/-Playwright-2EAD33?logo=playwright&logoColor=white">
-  <img alt="Claude" src="https://img.shields.io/badge/-Claude_Code-d97757?logo=anthropic&logoColor=white">
-</p>
-
-## 📌 Public projects
-
-| Project | What it is |
+| Layer | Tools |
 | --- | --- |
-| [**software-engineering-portfolio**](https://stephen-smh.github.io/software-engineering-portfolio/en/)<br><sub>[source](https://github.com/Stephen-SMH/software-engineering-portfolio)</sub> | Astro portfolio with an interactive terminal, animated skill scenes and a CI/CD story. |
-| [**local-llm-gateway**](https://github.com/Stephen-SMH/local-llm-gateway) | Self-hosted, OpenAI-compatible gateway for local LLMs: model registry, retries and circuit breakers, API-key RBAC, Redis rate limiting. |
-| [**game-portfolio**](https://stephen-smh.github.io/game-portfolio/)<br><sub>[source](https://github.com/Stephen-SMH/game-portfolio)</sub> | My games with Steam-style store pages: Werewolf, The Knock and more. |
-| [**desktop-portfolio**](https://stephen-smh.github.io/desktop-portfolio/)<br><sub>[source](https://github.com/Stephen-SMH/desktop-portfolio)</sub> | A portfolio shaped like a tiny desktop OS, with draggable windows. |
+| **Languages** | Go · TypeScript · Python · Kotlin · Swift · Dart |
+| **Backend** | FastAPI · Spring Boot · sqlc / jOOQ · OpenAPI · RabbitMQ · ZeroMQ · WebSocket |
+| **Data** | PostgreSQL · Redis · MongoDB · Flyway / dbmate migrations |
+| **Frontend / mobile** | React · Next.js · Vite · Flutter (Riverpod, Bloc) · Android · iOS |
+| **Infra / ops** | Docker · Kubernetes · Terraform · Argo CD · GitHub Actions · AWS · Prometheus · Grafana · Loki · k6 |
+| **AI** | RAG · MCP · LlamaIndex · Agno · CopilotKit · Claude API · Ollama |
+| **Quality** | Playwright · Go race / integration tests · architecture tests · ADRs |
 
-<sub>Most of my larger work (a fintech wallet simulator, a multi-agent delivery city, Comic Studio) lives in private repos. Ask me about them.</sub>
+## 📫 Contact
 
-## 📫 Say hello
-
-Email **soemoehtetstephen@gmail.com** · [LinkedIn](https://www.linkedin.com/in/soe-moe-htet-01b411187/) · Open to new opportunities, hybrid or remote.
+**soemoehtetstephen@gmail.com** · [LinkedIn](https://www.linkedin.com/in/soe-moe-htet-01b411187/) · [Portfolio](https://stephen-smh.github.io/software-engineering-portfolio/en/) · Open to full-time roles, hybrid or remote.
